@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>TaskSwift</title>
+    <title>TaskSwift - to-do list app.</title>
 </head>
 <body>
     <section class="container">
@@ -12,12 +12,9 @@
             <h2>Task<span>Swift</span> <img src="./images/icon.png" alt="Note Icon"></h2>
             <div class="row">
                 <input type="text" placeholder="Add your task" id="input-box">
-                <button>Add</button>
+                <button aria-label="add task button" id="add-button">Add</button>
             </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> -->
+            <ul id="list-container" aria-label="Tasks container">
             </ul>
         </div>
     </section>
